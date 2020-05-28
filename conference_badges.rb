@@ -29,7 +29,7 @@ def printer(name_array)
   room_array = assign_rooms(name_array)
   badge_array.each do |badge|
     puts badge
-    puts room_array[badge.index]
+    puts room_array[badge_array.index(badge)]
   end
 end
     

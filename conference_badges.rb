@@ -33,4 +33,4 @@ def printer(name_array)
   end
 end
     
-printer(["abe","abe1","abe2","abe3","abe4","abe5","abe6"])    
+  
